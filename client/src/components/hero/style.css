@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One');
+
+.fullscreen-bg {
+    min-height: 100%;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerWrapper {
+  margin-top: .5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title {
+  font-family: 'Faster One', cursive;
+  font-size: 70px;
+  letter-spacing: 20px;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: 'Faster One', cursive;
+  letter-spacing: 20px;
+  font-size: 48px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [className*="banner"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [className*="firstSection container"] {
+        width: 100%;
+    }
+}
